@@ -25,4 +25,19 @@ for bugs[index] in bugs:
 
 print(new_list)
 
+bugs_finish = []
+index_2 = 0
+for new_list[index_2] in new_list:
+    if 'High' in new_list[index_2]:
+        bugs_finish.append(new_list[index_2])
+    index_2 += 1
 
+print(bugs_finish)
+
+index_3 = 0
+for new_list[index_3] in new_list:
+    if 'Middle' in new_list[index_3]:
+        bugs_finish.append(new_list[index_3])
+    index_3 += 1
+
+print(bugs_finish)
