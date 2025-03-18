@@ -1,20 +1,14 @@
-from operator import index
-
 print("Здорова, ты нашел баг? Составь пожалуйста баг-репорт по маске:")
 print("'Название бага - приоритет (High, Middle, Low)'")
 
 bugs = []
 
-bugs.append(input("Заполни отчет по маске: "))
-bugs.append(input("Заполни отчет по маске: "))
-bugs.append(input("Заполни отчет по маске: "))
-bugs.append(input("Заполни отчет по маске: "))
-bugs.append(input("Заполни отчет по маске: "))
-#
-# for Low in bugs:
-#     bugs.remove()
-#
-# print(bugs)
+bugs.append(input("Заполни баг-репорт по маске: "))
+bugs.append(input("Заполни баг-репорт по маске: "))
+bugs.append(input("Заполни баг-репорт по маске: "))
+bugs.append(input("Заполни баг-репорт по маске: "))
+bugs.append(input("Заполни баг-репорт по маске: "))
+
 new_list = []
 index = 0
 for bugs[index] in bugs:
