@@ -1,19 +1,19 @@
 name = input("Введите ваше имя: ")
-if not name:
+while not name:
     print("Имя не указано. Попробуйте снова!")
     name = input("Введите ваше имя: ")
 else:
     print(f"Ваш имя: {name}")
 
 profession = input("Введите вашу профессию: ")
-if not profession:
+while not profession:
     print("Профессия не указана. Попробуйте снова!")
     profession = input("Введите вашу профессию: ")
 else:
     print(f"Ваша профессия: {profession}")
 
 tool = input("Введите ваш любимый инструмент для тестирования: ")
-if not tool:
+while not tool:
     print("Инструмент не указан. Попробуйте снова!")
     tool = input("Введите ваш любимый инструмент для тестирования: ")
 else:
